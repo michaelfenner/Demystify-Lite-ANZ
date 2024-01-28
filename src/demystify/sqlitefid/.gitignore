@@ -1,0 +1,8 @@
+*.pyc
+py2
+py3
+venv
+build/*
+dist/*
+src/sqlitefid.egg-info/*
+tar-package/*
