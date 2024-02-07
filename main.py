@@ -70,5 +70,7 @@ def setup_button():
         "change", file_select_proxy, False
     )
 
+# TODO: Add a second button to run the tests
+#       Add a third button to use custom configs
 
 setup_button()

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 from src.demystify.demystify import analysis_from_csv
 
 SF_YAML = """---

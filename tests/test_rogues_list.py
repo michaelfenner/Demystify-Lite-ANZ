@@ -2,7 +2,6 @@
 
 import configparser as ConfigParser
 import io
-
 import pytest
 
 from src.demystify.demystify import analysis_from_csv

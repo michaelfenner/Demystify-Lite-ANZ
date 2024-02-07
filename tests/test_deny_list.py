@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import configparser as ConfigParser
-
 import pytest
 
 from src.demystify.demystify import analysis_from_csv
