@@ -104,6 +104,8 @@ def _handle_denylist_config_lite():
     :raises: DenyListError if this function is invoked but there isn't a
         denylist available to be used.
     """
+
+    # TODO: Let the user add their own denylist.cfg from the browser
     DENYLIST = "denylist.cfg"
     denylist_path = DENYLIST
     #if not os.path.isfile(denylist_path):

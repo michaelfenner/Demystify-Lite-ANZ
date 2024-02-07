@@ -33,7 +33,7 @@ clean:  ## Clean the package directory
 	rm -rf dist/
 	rm -rf tar-package/
 
-wheel: ## Update the wheel for use with PyScript
+wheel: # Update the wheel for use with PyScript
 	python setup.py sdist bdist_wheel
 
 help:  ## Print this help message.
